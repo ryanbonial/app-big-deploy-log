@@ -18,7 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run print-a-lot && react-scripts build",
+    "print-a-lot": "node ./print-a-lot.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
